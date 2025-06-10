@@ -1,4 +1,3 @@
-
 import { useEffect, useRef } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Phone, Mail, MapPin, Clock, Linkedin, Facebook, Instagram } from 'lucide-react';
@@ -30,25 +29,25 @@ const ContactSection = () => {
     {
       icon: <Phone className="h-5 w-5 text-primary" />,
       title: "Telefone",
-      details: "(11) 3456-7890",
-      link: "tel:+551134567890"
+      details: "(67) 3345-6789",
+      link: "tel:+556733456789"
     },
     {
       icon: <Mail className="h-5 w-5 text-primary" />,
       title: "E-mail",
-      details: "contato@harmonicacontabil.com.br",
-      link: "mailto:contato@harmonicacontabil.com.br"
+      details: "vendas@agrotechimplementos.com.br",
+      link: "mailto:vendas@agrotechimplementos.com.br"
     },
     {
       icon: <MapPin className="h-5 w-5 text-primary" />,
       title: "Endereço",
-      details: "Av. Paulista, 1000, São Paulo - SP",
+      details: "Rod. BR-163, Km 85, Campo Grande - MS",
       link: "https://maps.google.com"
     },
     {
       icon: <Clock className="h-5 w-5 text-primary" />,
       title: "Horário",
-      details: "Segunda a Sexta, 9h às 18h",
+      details: "Segunda a Sexta, 7h às 17h | Sábado, 8h às 12h",
       link: null
     }
   ];
@@ -68,8 +67,8 @@ const ContactSection = () => {
             Estamos Prontos para Atender Você
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto animate-on-scroll">
-            Entre em contato conosco através de WhatsApp, telefone ou e-mail.
-            Nossa equipe está à disposição para oferecer o suporte que você precisa.
+            Entre em contato conosco para orçamentos, assistência técnica ou informações sobre nossos implementos agrícolas.
+            Nossa equipe especializada está à disposição para ajudar no crescimento da sua propriedade rural.
           </p>
         </div>
 
@@ -80,8 +79,8 @@ const ContactSection = () => {
                 <div>
                   <h3 className="text-2xl font-bold mb-6">Informações de Contato</h3>
                   <p className="text-muted-foreground mb-8">
-                    Para solicitar orçamentos, tirar dúvidas ou agendar uma consulta, 
-                    utilize um dos canais de atendimento abaixo. Respondemos com rapidez e eficiência.
+                    Para solicitar orçamentos de implementos, agendar assistência técnica ou conhecer nossos produtos,
+                    utilize um dos canais de atendimento abaixo. Atendemos produtores rurais de todo o Centro-Oeste.
                   </p>
                   
                   <div className="space-y-6 mb-8">
@@ -116,7 +115,7 @@ const ContactSection = () => {
                     </div>
                     <h3 className="text-xl font-bold mb-3">Prefere atendimento via WhatsApp?</h3>
                     <p className="text-muted-foreground mb-6">
-                      Clique no botão do WhatsApp no canto inferior direito da tela para iniciar uma conversa diretamente com nossa equipe de atendimento.
+                      Clique no botão do WhatsApp no canto inferior direito da tela para falar diretamente com nossos especialistas em implementos agrícolas e receber atendimento personalizado.
                     </p>
                     <div className="text-sm text-muted-foreground">
                       Tempo médio de resposta: <span className="font-medium text-foreground">15 minutos</span>
@@ -132,13 +131,13 @@ const ContactSection = () => {
           <Card className="border border-border/50 shadow-card overflow-hidden">
             <div className="h-[400px] w-full">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0976950243356!2d-46.6547919!3d-23.5651084!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.%20Paulista%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-BR!2sbr!4v1627909542948!5m2!1spt-BR!2sbr"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3739.123456789!2d-54.6164919!3d-20.4629581!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9486e1b123456789%3A0x123456789abcdef!2sBR-163%2C%20Campo%20Grande%20-%20MS!5e0!3m2!1spt-BR!2sbr!4v1627909542948!5m2!1spt-BR!2sbr"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
-                title="Mapa de localização"
+                title="Mapa de localização - AgroTech Implementos"
               ></iframe>
             </div>
           </Card>
