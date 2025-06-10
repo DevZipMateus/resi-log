@@ -27,6 +27,22 @@ const FeaturedProducts = () => {
     };
   }, []);
 
+  const handleWhatsAppRedirect = (action: string, productName: string) => {
+    let message = '';
+    if (action === 'add') {
+      message = `Olá! Gostaria de adicionar ao carrinho: ${productName}`;
+    } else if (action === 'quote') {
+      message = `Olá! Gostaria de solicitar um orçamento para: ${productName}`;
+    } else if (action === 'view') {
+      message = `Olá! Gostaria de ver mais detalhes sobre: ${productName}`;
+    } else {
+      message = `Olá! Gostaria de ver todos os produtos disponíveis.`;
+    }
+    
+    const whatsappUrl = `https://wa.me/5567999999999?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
+
   const featuredProducts = [
     {
       id: 1,
@@ -105,7 +121,12 @@ const FeaturedProducts = () => {
                     </span>
                   </div>
                   <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                    <Button size="sm" variant="secondary" className="bg-white/90 hover:bg-white">
+                    <Button 
+                      size="sm" 
+                      variant="secondary" 
+                      className="bg-white/90 hover:bg-white"
+                      onClick={() => handleWhatsAppRedirect('view', product.name)}
+                    >
                       <Eye className="h-4 w-4" />
                     </Button>
                   </div>
@@ -151,11 +172,19 @@ const FeaturedProducts = () => {
                   </div>
                   
                   <div className="flex space-x-2">
-                    <Button className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground">
+                    <Button 
+                      className="flex-1 bg-primary hover:bg-primary/90 text-primary-foreground"
+                      onClick={() => handleWhatsAppRedirect('add', product.name)}
+                    >
                       <ShoppingCart className="mr-2 h-4 w-4" />
                       Adicionar
                     </Button>
-                    <Button variant="outline" size="sm" className="border-primary/20">
+                    <Button 
+                      variant="outline" 
+                      size="sm" 
+                      className="border-primary/20"
+                      onClick={() => handleWhatsAppRedirect('quote', product.name)}
+                    >
                       Orçamento
                     </Button>
                   </div>
@@ -166,7 +195,12 @@ const FeaturedProducts = () => {
         </div>
 
         <div className="text-center mt-12 animate-on-scroll">
-          <Button size="lg" variant="outline" className="border-primary text-primary hover:bg-primary hover:text-primary-foreground">
+          <Button 
+            size="lg" 
+            variant="outline" 
+            className="border-primary text-primary hover:bg-primary hover:text-primary-foreground"
+            onClick={() => handleWhatsAppRedirect('all', '')}
+          >
             Ver Todos os Produtos
           </Button>
         </div>

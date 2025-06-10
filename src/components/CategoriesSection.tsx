@@ -1,3 +1,4 @@
+
 import { useEffect, useRef } from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
@@ -25,6 +26,12 @@ const CategoriesSection = () => {
       animatedElements.forEach((el) => observer.unobserve(el));
     };
   }, []);
+
+  const handleWhatsAppRedirect = (category: string) => {
+    const message = `Olá! Gostaria de ver os produtos da categoria ${category}.`;
+    const whatsappUrl = `https://wa.me/5567999999999?text=${encodeURIComponent(message)}`;
+    window.open(whatsappUrl, '_blank');
+  };
 
   const categories = [
     {
@@ -115,7 +122,11 @@ const CategoriesSection = () => {
                     ))}
                   </div>
                   
-                  <Button variant="outline" className="w-full group/btn border-primary/20 hover:bg-primary hover:text-primary-foreground">
+                  <Button 
+                    variant="outline" 
+                    className="w-full group/btn border-primary/20 hover:bg-primary hover:text-primary-foreground"
+                    onClick={() => handleWhatsAppRedirect(category.title)}
+                  >
                     Ver Produtos
                     <ArrowRight className="ml-2 h-4 w-4 group-hover/btn:translate-x-1 transition-transform" />
                   </Button>
@@ -126,7 +137,11 @@ const CategoriesSection = () => {
         </div>
 
         <div className="text-center animate-on-scroll">
-          <Button size="lg" className="bg-primary hover:bg-primary/90 text-primary-foreground">
+          <Button 
+            size="lg" 
+            className="bg-primary hover:bg-primary/90 text-primary-foreground"
+            onClick={() => handleWhatsAppRedirect("Todos os Produtos")}
+          >
             Ver Todos os Produtos
             <ArrowRight className="ml-2 h-5 w-5" />
           </Button>
