@@ -1,7 +1,7 @@
 
 import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
-import { Menu, X, Search, ShoppingCart, User } from 'lucide-react';
+import { Menu, X, Search, User } from 'lucide-react';
 import { useIsMobile } from '@/hooks/use-mobile';
 import {
   Sheet,
@@ -60,12 +60,6 @@ const Header = () => {
                 className="pl-10 pr-4 py-2 rounded-md border border-input bg-background/50 backdrop-blur-sm text-sm focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary w-64"
               />
             </div>
-            <Button variant="ghost" size="icon" className="relative">
-              <ShoppingCart className="h-5 w-5" />
-              <span className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                0
-              </span>
-            </Button>
             <Button variant="ghost" size="icon">
               <User className="h-5 w-5" />
             </Button>
@@ -95,12 +89,6 @@ const Header = () => {
                   </div>
                   <NavLinks mobile />
                   <div className="flex space-x-3 mt-4">
-                    <Button variant="ghost" size="icon" className="relative">
-                      <ShoppingCart className="h-5 w-5" />
-                      <span className="absolute -top-1 -right-1 bg-primary text-primary-foreground text-xs rounded-full h-5 w-5 flex items-center justify-center">
-                        0
-                      </span>
-                    </Button>
                     <Button variant="ghost" size="icon">
                       <User className="h-5 w-5" />
                     </Button>

@@ -56,7 +56,7 @@ const CategoriesSection = () => {
       title: "Peças e Assistência",
       description: "Peças originais e serviços especializados para seus equipamentos",
       items: ["Peças Originais", "Manutenção", "Suporte Técnico", "Garantia"],
-      image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhAQEBMWEhUTFxUQFRYREiISExkVGBYWGRkXFhgaICshGRolHRgaLTEiJTUsLy46Hh8zODMsOCgtLisBCgoKDg0OFxAQGS0lHx8rLS0tLSstLS0tLjctLS0tLS0tLSstKy0rNy4tLS0rLS0tNy0tLy0tLS0vNSsyNy0yN//AABEIAMkA+wMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBAwUEAgj/xAA9EAACAgEDAQYEBAUCBAcBAAABAgARAwQSITEFBhMiQVEHMmFxFCOBkUJSYqGxM3IXJILBNFNjkqLh8BX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAHhEBAQACAwEBAQEAAAAAAAAAAAECESExQRJxIgP/2gAMAwEAAhEDEQA/ALxiaLi4G+JouLgb4mi4uBviaLi4G+JouLgb4mi4uBviaLi4G+JouLgb4mi4uBviaLi4G+JouLgb4mi4uBviaLi4CIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgf/Z",
+      image: "/lovable-uploads/ed1a0b4e-6a76-423c-a8ab-cc75ca716c4b.png",
       color: "bg-orange-500"
     }
   ];
