@@ -69,9 +69,9 @@ const HeroSection = () => {
               <div className="relative">
                 <div className="absolute inset-0 bg-primary/20 rounded-2xl blur-2xl"></div>
                 <img 
-                  alt="Trator John Deere em campo de soja" 
+                  alt="Trator John Deere moderno em campo agrícola" 
                   className="relative rounded-2xl shadow-2xl w-full h-[500px] object-cover" 
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQY-kDUof-QRFReojO3Wmdq3A-XJKJXT_Anxg&s" 
+                  src="https://images.unsplash.com/photo-1566754885103-ca53c6fc0ac1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" 
                 />
                 <div className="absolute bottom-4 left-4 right-4 bg-white/90 backdrop-blur-sm rounded-lg p-4">
                   <h3 className="font-bold text-foreground mb-1">Tecnologia de Ponta</h3>
