@@ -33,7 +33,7 @@ const CategoriesSection = () => {
       title: "Máquinas e Tratores",
       description: "Plantadeiras, colheitadeiras, tratores e equipamentos de última geração",
       items: ["Plantadeiras", "Colheitadeiras", "Tratores", "Pulverizadores"],
-      image: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
       color: "bg-green-500"
     },
     {
@@ -41,7 +41,7 @@ const CategoriesSection = () => {
       title: "Sementes e Mudas",
       description: "Sementes certificadas e mudas de alta qualidade para sua lavoura",
       items: ["Soja", "Milho", "Algodão", "Feijão"],
-      image: "https://images.unsplash.com/photo-1464207687429-7505649dae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
       color: "bg-yellow-500"
     },
     {
@@ -49,7 +49,7 @@ const CategoriesSection = () => {
       title: "Defensivos e Fertilizantes",
       description: "Proteção completa e nutrição adequada para suas culturas",
       items: ["Herbicidas", "Fungicidas", "Inseticidas", "Fertilizantes"],
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
       color: "bg-blue-500"
     },
     {
@@ -57,7 +57,7 @@ const CategoriesSection = () => {
       title: "Peças e Assistência",
       description: "Peças originais e serviços especializados para seus equipamentos",
       items: ["Peças Originais", "Manutenção", "Suporte Técnico", "Garantia"],
-      image: "https://images.unsplash.com/photo-1581833971358-2c8b550f87b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1606964159531-1d8f10c8b3e2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
       color: "bg-orange-500"
     }
   ];
