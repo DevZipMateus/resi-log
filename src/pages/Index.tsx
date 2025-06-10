@@ -2,9 +2,10 @@
 import { useEffect } from 'react';
 import Header from '@/components/Header';
 import HeroSection from '@/components/HeroSection';
+import CategoriesSection from '@/components/CategoriesSection';
+import FeaturedProducts from '@/components/FeaturedProducts';
+import BrandsSection from '@/components/BrandsSection';
 import AboutSection from '@/components/AboutSection';
-import ServicesSection from '@/components/ServicesSection';
-import PlansSection from '@/components/PlansSection';
 import TestimonialsSection from '@/components/TestimonialsSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
@@ -18,7 +19,6 @@ const Index = () => {
         const elementPosition = element.getBoundingClientRect().top;
         const windowHeight = window.innerHeight;
         
-        // Trigger animations a bit earlier (80% of viewport height instead of 90%)
         if (elementPosition < windowHeight * 0.8) {
           element.classList.add('visible');
         }
@@ -26,7 +26,6 @@ const Index = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    // Trigger once on load
     handleScroll();
     
     return () => window.removeEventListener('scroll', handleScroll);
@@ -36,9 +35,10 @@ const Index = () => {
     <div className="overflow-x-hidden">
       <Header />
       <HeroSection />
+      <CategoriesSection />
+      <FeaturedProducts />
+      <BrandsSection />
       <AboutSection />
-      <ServicesSection />
-      <PlansSection />
       <TestimonialsSection />
       <ContactSection />
       <Footer />
