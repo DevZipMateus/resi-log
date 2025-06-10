@@ -5,28 +5,28 @@ import { ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 
 const testimonials = [
   {
-    name: "Carlos Silva",
-    company: "Silva Tech Solutions",
+    name: "João Henrique Silva",
+    company: "Fazenda Santa Rita",
     image: "/placeholder.svg",
-    text: "A Harmônica Contabilidade transformou completamente nossa gestão financeira. Além da excelência técnica, o atendimento personalizado nos deu confiança para tomar decisões estratégicas."
+    text: "A AgroTech transformou nossa operação de plantio. Os implementos que adquirimos aumentaram nossa produtividade em 30% e a assistência técnica é excepcional. Recomendo para todos os produtores da região."
   },
   {
-    name: "Ana Oliveira",
-    company: "Boutique Elegance",
+    name: "Maria Fernanda Costa",
+    company: "Agropecuária Três Irmãos",
     image: "/placeholder.svg",
-    text: "Desde que começamos a trabalhar com a Harmônica, nossa carga tributária reduziu significativamente. A equipe é extremamente proativa e sempre nos orienta sobre as melhores práticas fiscais."
+    text: "Trabalho com a AgroTech há mais de 5 anos e nunca me decepcionaram. Equipamentos de primeira qualidade, preços justos e um atendimento que realmente entende as necessidades do campo."
   },
   {
-    name: "Roberto Mendes",
-    company: "Construmendes Ltda",
+    name: "Roberto Almeida",
+    company: "Fazenda Boa Vista",
     image: "/placeholder.svg",
-    text: "Os serviços contábeis da Harmônica são de altíssima qualidade. Trouxeram organização e tranquilidade para nossa empresa, além de identificarem oportunidades de economia que não enxergávamos."
+    text: "Os tratores e implementos que compramos da AgroTech têm sido fundamentais para o sucesso da nossa safra. A equipe técnica nos orientou na escolha certa e o suporte pós-venda é exemplar."
   },
   {
-    name: "Lúcia Ferreira",
-    company: "Café & Bistrô Aroma",
+    name: "Carlos Eduardo Souza",
+    company: "Sítio Esperança Verde",
     image: "/placeholder.svg",
-    text: "Como empreendedora, precisava de um parceiro contábil que entendesse os desafios de um pequeno negócio. A Harmônica superou todas as expectativas com seu atendimento humanizado."
+    text: "Como pequeno produtor, encontrei na AgroTech um parceiro que oferece soluções adequadas ao meu orçamento. Consegui modernizar minha propriedade com equipamentos de qualidade e financiamento facilitado."
   }
 ];
 
@@ -95,8 +95,8 @@ const TestimonialsSection = () => {
             O Que Nossos Clientes Dizem
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto animate-on-scroll">
-            Atendimento personalizado e resultados concretos são nossa marca registrada.
-            Veja o que nossos clientes têm a dizer sobre nossos serviços.
+            Atendimento especializado e equipamentos de qualidade são nossa marca registrada.
+            Veja o que nossos parceiros do agronegócio têm a dizer sobre nossos serviços.
           </p>
         </div>
 

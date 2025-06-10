@@ -34,11 +34,11 @@ const AboutSection = () => {
             Sobre Nós
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 animate-on-scroll">
-            Conhecimento e Experiência para o Sucesso do seu Negócio
+            Tecnologia e Experiência para o Sucesso do seu Agronegócio
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto animate-on-scroll">
-            Mais que um escritório contábil, somos um parceiro estratégico comprometido com
-            o crescimento sustentável da sua empresa.
+            Mais que uma distribuidora de implementos, somos um parceiro estratégico comprometido com
+            a produtividade e crescimento sustentável da sua propriedade rural.
           </p>
         </div>
 
@@ -46,20 +46,20 @@ const AboutSection = () => {
           <div className="space-y-6">
             <div className="animate-on-scroll">
               <h3 className="text-2xl font-bold mb-4">
-                Conte com uma Contabilidade Harmônica
+                Conte com a AgroTech Implementos
               </h3>
               <p className="text-muted-foreground mb-6">
-                Desde 2010, ajudamos empresas de todos os tamanhos a otimizar suas operações
-                financeiras e contábeis. Nossa abordagem combina expertise técnica com um
-                atendimento personalizado, garantindo que cada cliente receba soluções
-                adequadas às suas necessidades específicas.
+                Desde 2008, fornecemos soluções completas em implementos agrícolas para propriedades
+                de todos os tamanhos. Nossa abordagem combina expertise técnica com um atendimento
+                personalizado, garantindo que cada cliente receba os melhores equipamentos e
+                orientações adequadas às suas necessidades específicas de produção.
               </p>
               <ul className="space-y-3">
                 {[
-                  'Equipe multidisciplinar e altamente qualificada',
-                  'Processos contábeis simplificados e transparentes',
-                  'Tecnologia de ponta para gestão financeira eficiente',
-                  'Comunicação clara e atendimento personalizado'
+                  'Equipe técnica especializada em agronegócio',
+                  'Amplo portfólio de marcas líderes do mercado',
+                  'Assistência técnica qualificada e peças originais',
+                  'Atendimento personalizado e suporte pós-venda'
                 ].map((item, index) => (
                   <li key={index} className="flex items-start gap-3">
                     <Check className="h-5 w-5 text-primary flex-shrink-0 mt-0.5" />
@@ -74,22 +74,22 @@ const AboutSection = () => {
             <AboutCard 
               icon={<Target className="h-10 w-10 text-primary" />}
               title="Missão"
-              description="Oferecer serviços contábeis de excelência, proporcionando segurança e tranquilidade para que nossos clientes possam focar no crescimento de seus negócios."
+              description="Fornecer implementos agrícolas de qualidade superior, oferecendo soluções completas que maximizam a produtividade e rentabilidade de nossos clientes no agronegócio."
             />
             <AboutCard 
               icon={<Heart className="h-10 w-10 text-primary" />}
               title="Visão"
-              description="Ser reconhecida como referência em contabilidade consultiva no Brasil, criando relacionamentos duradouros baseados em confiança e resultados."
+              description="Ser reconhecida como a principal distribuidora de implementos agrícolas do Centro-Oeste, criando parcerias duradouras baseadas em confiança e resultados."
             />
             <AboutCard 
               icon={<Award className="h-10 w-10 text-primary" />}
               title="Valores"
-              description="Ética, transparência, compromisso com resultados, excelência técnica e inovação constante em nossos processos e serviços."
+              description="Comprometimento com a qualidade, inovação tecnológica, sustentabilidade, ética nos negócios e excelência no atendimento ao produtor rural."
             />
             <AboutCard 
               icon={<Check className="h-10 w-10 text-primary" />}
               title="Diferenciais"
-              description="Atendimento personalizado, tecnologia de ponta, equipe especializada e processos transparentes para garantir sua satisfação."
+              description="Assistência técnica especializada, estoque completo, entrega rápida, financiamento facilitado e equipe com conhecimento prático do campo."
             />
           </div>
         </div>
