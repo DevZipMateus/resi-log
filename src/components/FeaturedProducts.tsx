@@ -34,7 +34,7 @@ const FeaturedProducts = () => {
       category: "Plantadeiras",
       price: "R$ 450.000",
       originalPrice: "R$ 480.000",
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://www.deere.com.br/assets/images/region-3/products/planting-equipment/dualflex-hitch/dualflex_estudio_large_348510ce4fc3841078cb501dbbe542eeb5d020f2.jpg",
       rating: 4.8,
       reviews: 24,
       features: ["GPS Integrado", "20 Linhas", "Sistema Automático"],
@@ -46,7 +46,7 @@ const FeaturedProducts = () => {
       category: "Colheitadeiras",
       price: "R$ 1.200.000",
       originalPrice: null,
-      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "https://static.wixstatic.com/media/f37214_2dccbbd253444ff580234e83743f7924~mv2.jpeg/v1/fill/w_560,h_374,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/f37214_2dccbbd253444ff580234e83743f7924~mv2.jpeg",
       rating: 4.9,
       reviews: 18,
       features: ["Cabine Luxo", "Sistema Auto-Track", "Tanque 10.000L"],
@@ -58,18 +58,13 @@ const FeaturedProducts = () => {
       category: "Tratores",
       price: "R$ 380.000",
       originalPrice: "R$ 420.000",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+      image: "data:image/jpeg;base64,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",
       rating: 4.7,
       reviews: 32,
       features: ["245cv", "Transmissão CVT", "Ar Condicionado"],
       badge: "Oferta"
     }
   ];
-
-  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-    const target = e.target as HTMLImageElement;
-    target.src = "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80";
-  };
 
   return (
     <section id="products" ref={sectionRef} className="section-padding bg-background">
@@ -99,8 +94,6 @@ const FeaturedProducts = () => {
                     src={product.image} 
                     alt={product.name}
                     className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-500"
-                    onError={handleImageError}
-                    loading="lazy"
                   />
                   <div className="absolute top-4 left-4">
                     <span className={`px-3 py-1 rounded-full text-xs font-medium ${

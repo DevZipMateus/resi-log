@@ -33,7 +33,7 @@ const CategoriesSection = () => {
       title: "Máquinas e Tratores",
       description: "Plantadeiras, colheitadeiras, tratores e equipamentos de última geração",
       items: ["Plantadeiras", "Colheitadeiras", "Tratores", "Pulverizadores"],
-      image: "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "data:image/jpeg;base64,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",
       color: "bg-green-500"
     },
     {
@@ -41,7 +41,7 @@ const CategoriesSection = () => {
       title: "Sementes e Mudas",
       description: "Sementes certificadas e mudas de alta qualidade para sua lavoura",
       items: ["Soja", "Milho", "Algodão", "Feijão"],
-      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1574323347407-f5e1ad6d020b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
       color: "bg-yellow-500"
     },
     {
@@ -49,7 +49,7 @@ const CategoriesSection = () => {
       title: "Defensivos e Fertilizantes",
       description: "Proteção completa e nutrição adequada para suas culturas",
       items: ["Herbicidas", "Fungicidas", "Inseticidas", "Fertilizantes"],
-      image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "https://images.unsplash.com/photo-1530836369250-ef72a3f5cda8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80",
       color: "bg-blue-500"
     },
     {
@@ -57,15 +57,10 @@ const CategoriesSection = () => {
       title: "Peças e Assistência",
       description: "Peças originais e serviços especializados para seus equipamentos",
       items: ["Peças Originais", "Manutenção", "Suporte Técnico", "Garantia"],
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      image: "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMSEhAQEBMWEhUTFxUQFRYREiISExkVGBYWGRkXFhgaICshGRolHRgaLTEiJTUsLy46Hh8zODMsOCgtLisBCgoKDg0OFxAQGS0lHx8rLS0tLSstLS0tLjctLS0tLS0tLSstKy0rNy4tLS0rLS0tNy0tLy0tLS0vNSsyNy0yN//AABEIAMkA+wMBIgACEQEDEQH/xAAcAAEAAgMBAQEAAAAAAAAAAAAABgcBAwUEAgj/xAA9EAACAgEDAQYEBAUCBAcBAAABAgARAwQSITEFBhMiQVEHMmFxFCOBkUJSYqGxM3IXJILBNFNjkqLh8BX/xAAXAQEBAQEAAAAAAAAAAAAAAAAAAQID/8QAHhEBAQACAwEBAQEAAAAAAAAAAAECESExQRJxIgP/2gAMAwEAAhEDEQA/ALxiaLi4G+JouLgb4mi4uBviaLi4G+JouLgb4mi4uBviaLi4G+JouLgb4mi4uBviaLi4G+JouLgb4mi4uBviaLi4G+JouLgb4mi4uBviaLi4CIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgf/Z",
       color: "bg-orange-500"
     }
   ];
-
-  const handleImageError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
-    const target = e.target as HTMLImageElement;
-    target.src = "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80";
-  };
 
   return (
     <section id="categories" ref={sectionRef} className="section-padding bg-secondary/30">
@@ -95,8 +90,6 @@ const CategoriesSection = () => {
                     src={category.image} 
                     alt={category.title}
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
-                    onError={handleImageError}
-                    loading="lazy"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
                   <div className="absolute bottom-4 left-4">
