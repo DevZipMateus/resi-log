@@ -1,0 +1,20 @@
+
+User-agent: *
+Allow: /
+
+# Disallow admin and login paths (for future use)
+Disallow: /admin/
+Disallow: /login/
+Disallow: /api/
+
+# Allow access to static resources
+Allow: /static/
+Allow: /images/
+Allow: /css/
+Allow: /js/
+
+# Sitemap location
+Sitemap: https://resilog.com.br/sitemap.xml
+
+# Crawl delay (optional)
+Crawl-delay: 1

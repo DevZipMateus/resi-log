@@ -15,47 +15,44 @@ const Footer = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <h3 className="text-xl font-bold mb-4">
-              <span className="text-primary">AgroTech</span> Implementos
-            </h3>
+            <img 
+              src="/lovable-uploads/1548f396-239a-4124-b1b3-750e3bf84956.png" 
+              alt="Resilog Transportes Especiais - Logo" 
+              className="h-16 w-auto object-contain brightness-0 invert"
+            />
             <p className="text-white/80 max-w-xs">
-              Soluções completas em implementos agrícolas, máquinas e equipamentos para o agronegócio.
+              Especialistas em coleta, transporte e destinação final de resíduos industriais com segurança e responsabilidade.
             </p>
-            <div className="flex space-x-4 mt-6">
-              <FooterSocialLink href="#" aria-label="Facebook" />
-              <FooterSocialLink href="#" aria-label="Instagram" />
-              <FooterSocialLink href="#" aria-label="LinkedIn" />
-            </div>
           </div>
 
           <div>
             <h4 className="text-lg font-semibold mb-4">Links Rápidos</h4>
             <ul className="space-y-2">
               <FooterNavItem href="#hero">Início</FooterNavItem>
-              <FooterNavItem href="#categories">Produtos</FooterNavItem>
-              <FooterNavItem href="#brands">Marcas</FooterNavItem>
-              <FooterNavItem href="#about">Sobre Nós</FooterNavItem>
+              <FooterNavItem href="#about">Sobre</FooterNavItem>
+              <FooterNavItem href="#services">Serviços</FooterNavItem>
+              <FooterNavItem href="#testimonials">Depoimentos</FooterNavItem>
               <FooterNavItem href="#contact">Contato</FooterNavItem>
             </ul>
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4">Categorias</h4>
+            <h4 className="text-lg font-semibold mb-4">Serviços</h4>
             <ul className="space-y-2">
-              <FooterNavItem href="#categories">Máquinas e Tratores</FooterNavItem>
-              <FooterNavItem href="#categories">Sementes e Mudas</FooterNavItem>
-              <FooterNavItem href="#categories">Defensivos e Fertilizantes</FooterNavItem>
-              <FooterNavItem href="#categories">Peças e Assistência</FooterNavItem>
+              <FooterNavItem href="#services">Postos de Combustíveis</FooterNavItem>
+              <FooterNavItem href="#services">Concessionárias</FooterNavItem>
+              <FooterNavItem href="#services">Transportadoras</FooterNavItem>
+              <FooterNavItem href="#services">Oficinas Mecânicas</FooterNavItem>
             </ul>
           </div>
 
           <div>
             <h4 className="text-lg font-semibold mb-4">Contato</h4>
             <ul className="space-y-3 text-white/80">
-              <li>(11) 3456-7890</li>
-              <li>contato@agrotechimplementos.com.br</li>
-              <li>Rod. BR-163, Km 85, Campo Grande - MS</li>
-              <li>Segunda a Sexta, 7h às 17h</li>
+              <li>(55) 3028-6449</li>
+              <li>resilogtransportes@hotmail.com</li>
+              <li>Rua Barão do Triunfo, 1140/01</li>
+              <li>Segunda a Sexta, 8h às 18h</li>
               <li>Sábado, 8h às 12h</li>
             </ul>
           </div>
@@ -65,7 +62,7 @@ const Footer = () => {
 
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/70 text-sm">
-            © {new Date().getFullYear()} AgroTech Implementos. Todos os direitos reservados.
+            © {new Date().getFullYear()} Resilog Transportes Especiais Ltda. Todos os direitos reservados.
           </p>
           <div className="mt-4 md:mt-0">
             <Button
@@ -97,18 +94,6 @@ const FooterNavItem = ({ href, children }: FooterNavItemProps) => (
       {children}
     </a>
   </li>
-);
-
-interface FooterSocialLinkProps {
-  href: string;
-  'aria-label': string;
-}
-
-const FooterSocialLink = (props: FooterSocialLinkProps) => (
-  <a
-    {...props}
-    className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-white/20 hover:bg-primary/80 transition-colors duration-200"
-  />
 );
 
 export default Footer;

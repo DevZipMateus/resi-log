@@ -1,8 +1,7 @@
 
 import { useEffect, useRef } from 'react';
-import { Button } from '@/components/ui/button';
 import { Card, CardContent } from '@/components/ui/card';
-import { FileText, PieChart, Building, Shield, FileCheck, BarChart } from 'lucide-react';
+import { Truck, Factory, Car, Wrench, Building, Recycle } from 'lucide-react';
 
 const ServicesSection = () => {
   const sectionRef = useRef<HTMLDivElement>(null);
@@ -28,50 +27,49 @@ const ServicesSection = () => {
   
   const services = [
     {
+      icon: <Truck className="h-12 w-12 text-primary" />,
+      title: "Postos de Combustíveis",
+      description: "Coleta especializada de resíduos perigosos gerados em postos de combustíveis, incluindo águas oleosas e materiais contaminados."
+    }, 
+    {
+      icon: <Car className="h-12 w-12 text-primary" />,
+      title: "Concessionárias",
+      description: "Transporte seguro de resíduos automotivos, óleos usados, filtros e outros materiais das concessionárias."
+    }, 
+    {
       icon: <Building className="h-12 w-12 text-primary" />,
-      title: "Abertura e Legalização de Empresas",
-      description: "Simplificamos todo o processo de criação da sua empresa, cuidando da burocracia para você iniciar suas atividades rapidamente."
+      title: "Transportadoras",
+      description: "Gestão completa de resíduos gerados por empresas de transporte, garantindo conformidade ambiental."
     }, 
     {
-      icon: <FileText className="h-12 w-12 text-primary" />,
-      title: "Contabilidade Empresarial",
-      description: "Registro preciso de todas as operações fiscais e contábeis, garantindo conformidade com as exigências legais."
+      icon: <Wrench className="h-12 w-12 text-primary" />,
+      title: "Oficinas Mecânicas",
+      description: "Coleta e destinação adequada de óleos lubrificantes, filtros usados e demais resíduos mecânicos."
     }, 
     {
-      icon: <PieChart className="h-12 w-12 text-primary" />,
-      title: "Gestão Fiscal e Tributária",
-      description: "Planejamento tributário estratégico para reduzir legalmente a carga de impostos e otimizar os recursos da sua empresa."
+      icon: <Factory className="h-12 w-12 text-primary" />,
+      title: "Empresas Industriais",
+      description: "Transporte especializado de resíduos industriais diversos, seguindo todas as normas de segurança."
     }, 
     {
-      icon: <Shield className="h-12 w-12 text-primary" />,
-      title: "Consultoria Tributária",
-      description: "Orientação especializada para tomadas de decisão estratégicas, maximizando resultados e minimizando riscos."
-    }, 
-    {
-      icon: <FileCheck className="h-12 w-12 text-primary" />,
-      title: "Departamento Pessoal",
-      description: "Gestão completa de folha de pagamento, admissões, demissões e toda a rotina trabalhista da sua empresa."
-    }, 
-    {
-      icon: <BarChart className="h-12 w-12 text-primary" />,
-      title: "Gestão Financeira",
-      description: "Acompanhamento de indicadores financeiros, fluxo de caixa e análises gerenciais para decisões mais assertivas."
+      icon: <Recycle className="h-12 w-12 text-primary" />,
+      title: "Destinação Final",
+      description: "Parceria com empresas licenciadas para tratamento e disposição final ambientalmente correta."
     }
   ];
   
   return (
-    <section id="services" ref={sectionRef} className="section-padding bg-gradient-to-b from-gray-50 to-white">
+    <section id="services" ref={sectionRef} className="section-padding bg-white">
       <div className="container mx-auto">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1 bg-primary/10 text-primary rounded-full text-sm font-medium mb-4 animate-on-scroll">
             Nossos Serviços
           </span>
           <h2 className="text-3xl md:text-4xl font-bold mb-4 animate-on-scroll">
-            Soluções Contábeis Completas
+            Soluções Completas em Transporte de Resíduos
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto animate-on-scroll">
-            Oferecemos uma gama completa de serviços contábeis e financeiros para atender às necessidades 
-            específicas do seu negócio.
+            Atendemos diversos segmentos com expertise, segurança e total conformidade às normas ambientais e de segurança.
           </p>
         </div>
 
@@ -88,7 +86,25 @@ const ServicesSection = () => {
         </div>
 
         <div className="mt-16 text-center animate-on-scroll">
-          
+          <Card className="border border-border/50 shadow-lg max-w-4xl mx-auto">
+            <CardContent className="p-8">
+              <h3 className="text-2xl font-bold mb-4">Por que Escolher a Resilog?</h3>
+              <div className="grid md:grid-cols-3 gap-6 text-center">
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">100%</div>
+                  <p className="text-muted-foreground">Conformidade Legal</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">24/7</div>
+                  <p className="text-muted-foreground">Suporte Disponível</p>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-primary mb-2">+5</div>
+                  <p className="text-muted-foreground">Anos de Experiência</p>
+                </div>
+              </div>
+            </CardContent>
+          </Card>
         </div>
       </div>
     </section>

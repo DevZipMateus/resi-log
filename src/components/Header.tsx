@@ -30,7 +30,7 @@ const Header = () => {
   }, []);
 
   const handleWhatsAppClick = () => {
-    window.open('https://wa.me/5567987654321?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20implementos%20agrícolas.', '_blank');
+    window.open('https://wa.me/5530286449?text=Olá!%20Gostaria%20de%20solicitar%20um%20orçamento%20para%20transporte%20de%20resíduos.', '_blank');
   };
 
   return (
@@ -43,10 +43,12 @@ const Header = () => {
     >
       <div className="container mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between">
-          <a href="#" className="relative z-20">
-            <h1 className="text-xl md:text-2xl font-display font-bold text-foreground">
-              <span className="text-primary">AgroTech</span> Implementos
-            </h1>
+          <a href="#hero" className="relative z-20">
+            <img 
+              src="/lovable-uploads/1548f396-239a-4124-b1b3-750e3bf84956.png" 
+              alt="Resilog Transportes Especiais - Logo" 
+              className="h-12 md:h-16 w-auto object-contain"
+            />
           </a>
 
           {/* Desktop Menu */}
@@ -102,9 +104,10 @@ interface NavLinksProps {
 const NavLinks = ({ mobile, onClick }: NavLinksProps) => {
   const links = [
     { name: 'Início', href: '#hero' },
-    { name: 'Produtos', href: '#products' },
-    { name: 'Marcas', href: '#brands' },
-    { name: 'Sobre Nós', href: '#about' },
+    { name: 'Sobre', href: '#about' },
+    { name: 'Serviços', href: '#services' },
+    { name: 'Depoimentos', href: '#testimonials' },
+    { name: 'Localização', href: '#location' },
     { name: 'Contato', href: '#contact' },
   ];
 
