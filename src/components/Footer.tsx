@@ -59,6 +59,23 @@ const Footer = () => {
 
         <hr className="border-white/20 my-8" />
 
+        {/* Seção da Fepam */}
+        <div className="flex flex-col items-center justify-center mb-8 space-y-4">
+          <div className="flex items-center space-x-4">
+            <img 
+              src="/lovable-uploads/6e396db7-0724-4c0c-a750-5c8402ccf68b.png" 
+              alt="FEPAM - Fundação Estadual de Proteção Ambiental" 
+              className="h-12 w-auto object-contain"
+            />
+            <p className="text-white/90 text-sm text-center">
+              RESILOG é uma empresa licenciada pela FEPAM<br />
+              <span className="text-white/70 text-xs">
+                Fundação Estadual de Proteção Ambiental
+              </span>
+            </p>
+          </div>
+        </div>
+
         <div className="flex flex-col md:flex-row justify-between items-center">
           <p className="text-white/70 text-sm">
             © {new Date().getFullYear()} Resilog Transportes Especiais Ltda. Todos os direitos reservados.
