@@ -1,4 +1,3 @@
-
 import { Button } from '@/components/ui/button';
 import { ChevronUp } from 'lucide-react';
 
@@ -18,7 +17,7 @@ const Footer = () => {
             <img 
               src="/lovable-uploads/1548f396-239a-4124-b1b3-750e3bf84956.png" 
               alt="Resilog Transportes Especiais - Logo" 
-              className="h-16 w-auto object-contain brightness-0 invert"
+              className="h-16 w-auto object-contain"
             />
             <p className="text-white/80 max-w-xs">
               Especialistas em coleta, transporte e destinação final de resíduos industriais com segurança e responsabilidade.
