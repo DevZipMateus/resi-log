@@ -66,6 +66,24 @@ const AboutSection = () => {
           </p>
         </div>
 
+        {/* Imagem do caminhão da Resilog */}
+        <div className="mb-16 animate-on-scroll">
+          <div className="relative rounded-2xl overflow-hidden shadow-xl">
+            <img 
+              src="/lovable-uploads/782ce3ca-e5a8-4762-9b12-67272668fef9.png" 
+              alt="Caminhão especializado da Resilog para coleta e transporte de resíduos" 
+              className="w-full h-64 md:h-96 object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
+            <div className="absolute bottom-6 left-6 text-white">
+              <h3 className="text-xl md:text-2xl font-bold mb-2">Frota Especializada</h3>
+              <p className="text-white/90 max-w-md">
+                Equipamentos modernos e especializados para coleta e destinação final de resíduos industriais
+              </p>
+            </div>
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
           <div className="animate-on-scroll">
             <h3 className="text-2xl font-bold mb-6">Nossa Missão</h3>
