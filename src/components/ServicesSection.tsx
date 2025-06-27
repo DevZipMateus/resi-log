@@ -34,7 +34,7 @@ const ServicesSection = () => {
     {
       icon: <Car className="h-12 w-12 text-primary" />,
       title: "Concessionárias",
-      description: "Transporte seguro de resíduos automotivos, óleos usados, filtros e outros materiais das concessionárias."
+      description: "Coletamos os sólidos, filtros e outros materiais das concessionárias."
     }, 
     {
       icon: <Building className="h-12 w-12 text-primary" />,
@@ -44,7 +44,7 @@ const ServicesSection = () => {
     {
       icon: <Wrench className="h-12 w-12 text-primary" />,
       title: "Oficinas Mecânicas",
-      description: "Coleta e destinação adequada de óleos lubrificantes, filtros usados e demais resíduos mecânicos."
+      description: "Coleta e destinação adequada de filtros usados e demais resíduos mecânicos."
     }, 
     {
       icon: <Factory className="h-12 w-12 text-primary" />,
@@ -99,7 +99,7 @@ const ServicesSection = () => {
                   <p className="text-muted-foreground">Suporte Disponível</p>
                 </div>
                 <div>
-                  <div className="text-3xl font-bold text-primary mb-2">+5</div>
+                  <div className="text-3xl font-bold text-primary mb-2">+10</div>
                   <p className="text-muted-foreground">Anos de Experiência</p>
                 </div>
               </div>
