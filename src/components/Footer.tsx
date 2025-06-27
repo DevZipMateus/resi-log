@@ -59,20 +59,35 @@ const Footer = () => {
 
         <hr className="border-white/20 my-8" />
 
-        {/* Seção da Fepam */}
-        <div className="flex flex-col items-center justify-center mb-8 space-y-4">
-          <div className="flex items-center space-x-4">
-            <img 
-              src="/lovable-uploads/6e396db7-0724-4c0c-a750-5c8402ccf68b.png" 
-              alt="FEPAM - Fundação Estadual de Proteção Ambiental" 
-              className="h-12 w-auto object-contain"
-            />
-            <p className="text-white/90 text-sm text-center">
-              RESILOG é uma empresa licenciada pela FEPAM<br />
-              <span className="text-white/70 text-xs">
-                Fundação Estadual de Proteção Ambiental
-              </span>
-            </p>
+        {/* Seção da Fepam e IBAMA */}
+        <div className="flex flex-col items-center justify-center mb-8 space-y-6">
+          <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+            <div className="flex items-center space-x-4">
+              <img 
+                src="/lovable-uploads/6e396db7-0724-4c0c-a750-5c8402ccf68b.png" 
+                alt="FEPAM - Fundação Estadual de Proteção Ambiental" 
+                className="h-12 w-auto object-contain"
+              />
+              <p className="text-white/90 text-sm text-center">
+                RESILOG é uma empresa licenciada pela FEPAM<br />
+                <span className="text-white/70 text-xs">
+                  Fundação Estadual de Proteção Ambiental
+                </span>
+              </p>
+            </div>
+            <div className="flex items-center space-x-4">
+              <img 
+                src="/lovable-uploads/d38001b3-1061-4acf-9489-50757522097f.png" 
+                alt="IBAMA - Instituto Brasileiro do Meio Ambiente" 
+                className="h-12 w-auto object-contain"
+              />
+              <p className="text-white/90 text-sm text-center">
+                RESILOG é uma empresa licenciada pelo IBAMA<br />
+                <span className="text-white/70 text-xs">
+                  Instituto Brasileiro do Meio Ambiente
+                </span>
+              </p>
+            </div>
           </div>
         </div>
 
